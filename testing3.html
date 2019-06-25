@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/mycode.js"></script>
+</head>
+<body>
+    <div class="contrainer">
+        <h2>Feedback form</h2>
+        <form id="feedbackForm">
+          <div class="form-group">
+              <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+               <label for="feedback">Feedback:</label>
+                <input type="text" class="form-control" id="feedback">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="maillist">add my name to email list
+            </label>
+          </div>
+          <button type="button" id="btnSubmit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="info"></div>
+        <div id="new"><button type="button" class="btn">Send a new feedback</button></div>
+      </div>
+</body>
+</html>
